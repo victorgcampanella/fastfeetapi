@@ -1,0 +1,8 @@
+{
+  "name": "fastfeetapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/victorgcampanella/fastfeetapi.git",
+  "author": "victorgcampanella <vgcgalvao@outlook.com>",
+  "license": "MIT"
+}
