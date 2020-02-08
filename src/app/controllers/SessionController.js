@@ -19,6 +19,12 @@ class SessionController {
 
     const { email, password } = request.body;
 
+    // const [userAdmin, userFastfeet] = email.split('@');
+
+    // if (userAdmin.includes('admin') && userFastfeet.includes('fastfeet.com')) {
+    //   const adminExists = true
+    // }
+
     const user = await User.findOne({ where: { email } });
 
     if (!user) {
